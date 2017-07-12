@@ -8,7 +8,6 @@ do
 done
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/lib9; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 27036 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/lib9p; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/lib9pclient; mk clean
@@ -19,10 +18,8 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libauth; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libauthsrv; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 22248 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libavl; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 28452 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libbin; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libbio; mk clean
@@ -31,7 +28,6 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libcomplete; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libdisk; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 25152 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libdiskfs; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libdraw; mk clean
@@ -42,9 +38,9 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libframe; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libgeometry; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
+      0 [waitproc] sh 20672 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libhtml; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 24120 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libhttpd; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libip; mk clean
@@ -55,23 +51,18 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmemdraw; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmemlayer; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
+      0 [waitproc] sh 33904 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmp; mk clean
 for i in port x86_64
 do
 	(cd $i; echo cd `pwd`';' mk $MKFLAGS clean; mk $MKFLAGS clean)
 done
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmp/port; mk clean
-./reduce: line 2: $'shift\r': command not found
-./reduce: line 4: $'shift\r': command not found
-./reduce: line 5: $'\r': command not found
-./reduce: line 7: syntax error near unexpected token `$'do\r''
-./reduce: line 7: `do'
 rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmp/x86_64; mk clean
 # nothing to see here
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmux; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 27252 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libndb; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libplumb; mk clean
@@ -84,14 +75,7 @@ do
 	(cd $i; echo cd `pwd`';' mk $MKFLAGS clean; mk $MKFLAGS clean)
 done
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libsec/port; mk clean
-./reduce: line 2: $'shift\r': command not found
-./reduce: line 4: $'shift\r': command not found
-./reduce: line 5: $'\r': command not found
-./reduce: line 7: syntax error near unexpected token `$'do\r''
-./reduce: line 7: `do'
-      0 [waitproc] sh 19680 proc_waiter: error on read of child wait pipe 0x280, Win32 error 233
 rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 28412 proc_waiter: error on read of child wait pipe 0x280, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libsec/x86_64; mk clean
 # nothing to see here
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libString; mk clean
@@ -99,8 +83,6 @@ rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libsunrpc; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libthread; mk clean
-./sysofiles.sh: line 2: $'\r': command not found
-./sysofiles.sh: line 3: /cygdrive/c/Users/caud460/Documents/repos/plan9port/config: No such file or directory
 rm -f *.[o] [o].out p1.txt p2.txt tp1.txt tp2.txt test/*.o y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libventi; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
@@ -126,7 +108,6 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/acidtypes; mk cle
 rm -f *.[o] [o].out o.acidtypes y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/acme; mk clean
 rm -f *.[o] [o].out o.acme y.tab.[ch]
-      0 [waitproc] sh 23368 proc_waiter: error on read of child wait pipe 0x27C, Win32 error 233
 for i in mail
 do
 	(cd $i; echo cd `pwd`';' mk $MKFLAGS clean; mk $MKFLAGS clean)
@@ -135,6 +116,7 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/acme/mail; mk cle
 rm -f *.[o] [o].out o.Mail y.tab.[ch]
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/astro; mk clean
 rm -f *.[o] [o].out o.astro y.tab.[ch]
+      0 [waitproc] sh 32524 proc_waiter: error on read of child wait pipe 0x280, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/auth; mk clean
 rm -f *.[o] [o].out o.asn12dsa o.asn12rsa o.dsagen o.dsasign o.dsa2pub o.dsa2ssh o.passwd o.pemdecode o.pemencode o.rsagen o.rsafill o.rsa2csr o.rsa2pub o.rsa2ssh o.rsa2x509 o.ssh-agent y.tab.[ch]
 for i in factotum secstore
@@ -153,11 +135,125 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/bzip2; mk clean
 rm -f *.[o] [o].out o.bzip2 o.bunzip2 y.tab.[ch]
 rm -f *.[o] y.tab.? y.debug y.output [o].* bzip2 bunzip2 *.rb2 *.tst
 cd lib; mk clean
-      0 [waitproc] sh 26740 proc_waiter: error on read of child wait pipe 0x27C, Win32 error 233
-mk: no recipe to make 'clean.o'
-mk: rm -f *.[o] ...  : exit status=exit(1)
-mk: for i in ...  : exit status=exit(1)
-mk: for i in ...  : exit status=exit(1)
+rm -f *.[o] [o].out libbzip2.a y.tab.[ch]
+rm -f *.[o] [o].out libbzip2.a
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/cb; mk clean
+rm -f *.[o] [o].out o.cb y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/db; mk clean
+rm -f *.[o] [o].out o.db y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/devdraw; mk clean
+rm -f *.[o] [o].out o.macargv o.mklatinkbd latin1.h y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/dict; mk clean
+rm -f *.[o] [o].out o.dict y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/diff; mk clean
+rm -f *.[o] [o].out o.diff y.tab.[ch]
+      0 [waitproc] sh 28960 proc_waiter: error on read of child wait pipe 0x27C, Win32 error 233
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/disk; mk clean
+rm -f *.[o] [o].out o.mkext o.mkfs y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/draw; mk clean
+rm -f *.[o] [o].out o.cmapcube o.colors o.crop o.gview o.iconv o.img o.mc o.stats o.statusbar o.tcolors o.tweak y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/eqn; mk clean
+rm -f *.[o] [o].out o.eqn y.tab.[ch]
+rm -f eqn.c prevy.tab.h
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/fontsrv; mk clean
+rm -f *.[o] [o].out o.fontsrv y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/fossil; mk clean
+rm -f *.[o] [o].out o.fossil o.flchk o.flfmt o.conf o.last o.view y.tab.[ch]
+rm -f libfs.a
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/grap; mk clean
+rm -f *.[o] [o].out o.grap y.tab.[ch]
+rm -f [o].out *.[o] y.tab.? lex.yy.c grapl.c grap.c grap
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/graph; mk clean
+rm -f *.[o] [o].out o.graph y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/grep; mk clean
+rm -f *.[o] [o].out o.grep y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/gzip; mk clean
+rm -f *.[o] [o].out o.gzip o.gunzip o.zip o.unzip y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/hoc; mk clean
+rm -f *.[o] [o].out o.hoc y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/htmlfmt; mk clean
+rm -f *.[o] [o].out o.htmlfmt y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/htmlroff; mk clean
+rm -f *.[o] [o].out o.htmlroff y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/jpg; mk clean
+rm -f *.[o] [o].out o.jpg o.gif o.togif o.ppm o.toppm o.png o.topng o.yuv o.ico o.toico o.bmp o.rgbycc o.rgbrgbv rgbv.h ycbcr.h y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/map; mk clean
+rm -f *.[o] [o].out o.mapd y.tab.[ch]
+rm -f *.[o] [o].out y.tab.? y.debug y.output mapd
+cd libmap; mk clean
+rm -f *.[o] [o].out libmap.a y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/mk; mk clean
+rm -f *.[o] [o].out o.mk y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/ndb; mk clean
+rm -f *.[o] [o].out o.dns o.dnsquery o.dnsdebug o.dnstcp o.ndbmkdb o.ndbquery o.ndbmkhash o.ndbmkhosts o.ndbipquery y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/netfiles; mk clean
+rm -f *.[o] [o].out o.Netfiles y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/page; mk clean
+rm -f *.[o] [o].out o.page y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/pic; mk clean
+rm -f *.[o] [o].out o.pic y.tab.[ch]
+rm -f *.[o] [o].out y.tab.? y.debug pic picy.c picl.c
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/plot; mk clean
+rm -f *.[o] [o].out o.plot y.tab.[ch]
+rm -f *.[o] [o].out y.tab.? y.debug y.output plot libplot.a
+cd libplot
+mk clean
+rm -f *.[o] [o].out ../libplot.a y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/plumb; mk clean
+rm -f *.[o] [o].out o.plumber o.plumb y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/postscript; mk clean
+for i in common tr2post download
+do
+	(cd $i; echo cd `pwd`';' mk $MKFLAGS clean; mk $MKFLAGS clean)
+done
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/postscript/common; mk clean
+rm -f *.[o] [o].out libcom.a y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/postscript/tr2post; mk clean
+rm -f *.[o] [o].out o.tr2post y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/postscript/download; mk clean
+rm -f *.[o] [o].out o.psdownload y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/proof; mk clean
+rm -f *.[o] [o].out o.proof y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/rc; mk clean
+rm -f *.[o] [o].out o.rc y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/rio; mk clean
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/sam; mk clean
+rm -f *.[o] [o].out o.sam y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/samterm; mk clean
+rm -f *.[o] [o].out o.samterm y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/scat; mk clean
+rm -f *.[o] [o].out o.scat y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/spell; mk clean
+rm -f *.[o] [o].out o.sprog y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/svgpic; mk clean
+rm -f *.[o] [o].out o.svgpic y.tab.[ch]
+rm -f *.[o] [o].out y.tab.? y.debug svgpic picy.c picl.c
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/tapefs; mk clean
+rm -f *.[o] [o].out o.tarfs o.tpfs o.v6fs o.32vfs o.cpiofs o.tapfs o.v10fs o.zipfs y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/tbl; mk clean
+rm -f *.[o] [o].out o.tbl y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/tcs; mk clean
+rm -f *.[o] [o].out o.tcs y.tab.[ch]
+rm -f *.[o] [o].out y.tab.? y.debug y.output tcs
+      0 [waitproc] sh 26144 proc_waiter: error on read of child wait pipe 0x27C, Win32 error 233
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/tpic; mk clean
+rm -f *.[o] [o].out o.tpic picy.c y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/troff; mk clean
+rm -f *.[o] [o].out o.troff y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/troff2html; mk clean
+rm -f *.[o] [o].out o.troff2html y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/vac; mk clean
+rm -f *.[o] [o].out o.vac o.vacfs o.unvac y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/vbackup; mk clean
+rm -f *.[o] [o].out o.disknfs o.vbackup o.vcat o.vmount0 o.vnfs y.tab.[ch]
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/venti; mk clean
+rm -f *.[o] [o].out o.copy o.read o.ro o.sync o.write o.dump y.tab.[ch]
+for i in srv
+do
+	(cd $i; echo cd `pwd`';' mk $MKFLAGS clean; mk $MKFLAGS clean)
+done
+cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/venti/srv; mk clean
+rm -f *.[o] [o].out libvs.a o.venti o.buildindex o.checkarenas o.checkindex o.clumpstats o.conf o.findscore o.fixarenas o.fmtarenas o.fmtbloom o.fmtindex o.fmtisect o.mirrorarenas o.printarena o.printarenapart o.rdarena o.syncindex o.verifyarena o.wrarena y.tab.[ch]
 for i in lib9 lib9p lib9pclient libacme libauth libauthsrv libavl libbin libbio libcomplete libdisk libdiskfs libdraw libflate libframe libgeometry libhtml libhttpd libip libmach libmemdraw libmemlayer libmp libmux libndb libplumb libregexp libsec libString libsunrpc libthread libventi
 do
 	(cd $i; echo cd `pwd`';' mk $MKFLAGS nuke; mk $MKFLAGS nuke)
@@ -206,24 +302,17 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmemdraw; mk nuke
 rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libmemdraw.a
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmemlayer; mk nuke
 rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libmemlayer.a
-      0 [waitproc] sh 25636 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmp; mk nuke
 for i in port x86_64
 do
 	(cd $i; echo cd `pwd`';' mk $MKFLAGS nuke; mk $MKFLAGS nuke)
 done
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmp/port; mk nuke
-./reduce: line 2: $'shift\r': command not found
-./reduce: line 4: $'shift\r': command not found
-./reduce: line 5: $'\r': command not found
-./reduce: line 7: syntax error near unexpected token `$'do\r''
-./reduce: line 7: `do'
 rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libmp.a
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmp/x86_64; mk nuke
 # nothing to see here
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmux; mk nuke
 rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libmux.a
-      0 [waitproc] sh 24264 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libndb; mk nuke
 rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libndb.a
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libplumb; mk nuke
@@ -236,21 +325,15 @@ do
 	(cd $i; echo cd `pwd`';' mk $MKFLAGS nuke; mk $MKFLAGS nuke)
 done
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libsec/port; mk nuke
-./reduce: line 2: $'shift\r': command not found
-./reduce: line 4: $'shift\r': command not found
-./reduce: line 5: $'\r': command not found
-./reduce: line 7: syntax error near unexpected token `$'do\r''
-./reduce: line 7: `do'
 rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libsec.a
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libsec/x86_64; mk nuke
 # nothing to see here
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libString; mk nuke
 rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libString.a
+      0 [waitproc] sh 34172 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libsunrpc; mk nuke
 rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libsunrpc.a
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libthread; mk nuke
-./sysofiles.sh: line 2: $'\r': command not found
-./sysofiles.sh: line 3: /cygdrive/c/Users/caud460/Documents/repos/plan9port/config: No such file or directory
 rm -f *.[o] [o].out p1.txt p2.txt tp1.txt tp2.txt test/*.o y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libthread.a
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libventi; mk nuke
 rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libventi.a
@@ -421,7 +504,6 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/lib9p; mk all
 9c  file.c
 9c  intmap.c
 9c  mem.c
-      0 [waitproc] sh 21692 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 9c  req.c
 9c  parse.c
 9c  srv.c
@@ -429,6 +511,7 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/lib9p; mk all
 9c  uid.c
 9c  util.c
 9ar rsc $PLAN9/lib/lib9p.a _post.o dirread.o fid.o file.o intmap.o mem.o req.o parse.o srv.o tpost.o uid.o util.o
+      0 [waitproc] sh 34828 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/lib9pclient; mk all
 9c  access.c
 9c  auth.c
@@ -463,6 +546,7 @@ acme.c:407:10: note: in expansion of macro ‘setjmp’
   if((r = setjmp(w->jmp)) != 0){
           ^
 9ar rsc $PLAN9/lib/libacme.a acme.o
+      1 [waitproc] sh 31292 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libauth; mk all
 9c  amount_getkey.c
 9c  attr.c
@@ -476,7 +560,9 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libauth; mk all
 9c  auth_userpasswd.c
 9c  fsamount.c
 9c  nsamount.c
+     23 [waitproc] sh 35980 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 9ar rsc $PLAN9/lib/libauth.a amount_getkey.o attr.o auth_attr.o auth_challenge.o auth_getkey.o auth_getuserpasswd.o auth_proxy.o auth_respond.o auth_rpc.o auth_userpasswd.o fsamount.o nsamount.o
+      0 [waitproc] sh 30864 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libauthsrv; mk all
 9c  _asgetticket.c
 9c  _asrdresp.c
@@ -497,7 +583,6 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libauthsrv; mk all
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libavl; mk all
 9c  avl.c
 9ar rsc $PLAN9/lib/libavl.a avl.o
-      0 [waitproc] sh 30000 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libbin; mk all
 9c  bin.c
 9ar rsc $PLAN9/lib/libbin.a bin.o
@@ -525,7 +610,6 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libcomplete; mk all
 9ar rsc $PLAN9/lib/libcomplete.a complete.o
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libdisk; mk all
 9c  disk.c
-      0 [waitproc] sh 30408 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 9c  proto.c
 /cygdrive/c/Users/caud460/Documents/repos/plan9port/include/libc.h:442:17: warning: implicit declaration of function ‘p9setjmp’ [-Wimplicit-function-declaration]
  #define setjmp  p9setjmp
@@ -541,7 +625,6 @@ proto.c:105:5: note: in expansion of macro ‘setjmp’
      ^
 9ar rsc $PLAN9/lib/libdisk.a disk.o proto.o
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libdiskfs; mk all
-      0 [waitproc] sh 29464 proc_waiter: error on read of child wait pipe 0x280, Win32 error 233
 9c  block.c
 9c  disk.c
 9c  fsys.c
@@ -555,6 +638,7 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libdiskfs; mk all
 9c  hfs.c
 9c  kfs.c
 9ar rsc $PLAN9/lib/libdiskfs.a block.o disk.o fsys.o cache.o file.o part.o venti.o ext2.o fat.o ffs.o hfs.o kfs.o
+      0 [waitproc] sh 37248 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libdraw; mk all
 9c  alloc.c
 9c  allocimagemix.c
@@ -639,7 +723,6 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libframe; mk all
 9c  frstr.c
 9c  frutil.c
 9ar rsc $PLAN9/lib/libframe.a frbox.o frdelete.o frdraw.o frinit.o frinsert.o frptofchar.o frselect.o frstr.o frutil.o
-      1 [waitproc] sh 31616 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libgeometry; mk all
 9c  arith3.c
 9c  matrix.c
@@ -648,7 +731,6 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libgeometry; mk all
 9c  transform.c
 9c  tstack.c
 9ar rsc $PLAN9/lib/libgeometry.a arith3.o matrix.o qball.o quaternion.o transform.o tstack.o
-      0 [waitproc] sh 32952 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libhtml; mk all
 9c  build.c
 9c  lex.c
@@ -656,7 +738,6 @@ cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libhtml; mk all
 9c  utils.c
 9c  runetab.c
 9ar rsc $PLAN9/lib/libhtml.a build.o lex.o strinttab.o utils.o runetab.o
-      1 [waitproc] sh 32244 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
 cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libhttpd; mk all
 9c  alloc.c
 9c  checkcontent.c

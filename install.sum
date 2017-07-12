@@ -2,66 +2,24 @@
 	gcc version 5.4.0 (GCC) 
 	fontsrv dependencies not found.
 * Building everything (be patient)...
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/lib9; mk clean
+>>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libgeometry; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 27036 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libauthsrv; mk clean
+      0 [waitproc] sh 20672 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
+>>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmemlayer; mk clean
 rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 22248 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libavl; mk clean
-rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 28452 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libdisk; mk clean
-rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 25152 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libhtml; mk clean
-rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 24120 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
->>> ./reduce: line 2: $'shift\r': command not found
-./reduce: line 4: $'shift\r': command not found
-./reduce: line 5: $'\r': command not found
-./reduce: line 7: syntax error near unexpected token `$'do\r''
-./reduce: line 7: `do'
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmux; mk clean
-rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 27252 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
->>> ./reduce: line 2: $'shift\r': command not found
-./reduce: line 4: $'shift\r': command not found
-./reduce: line 5: $'\r': command not found
-./reduce: line 7: syntax error near unexpected token `$'do\r''
-./reduce: line 7: `do'
-      0 [waitproc] sh 19680 proc_waiter: error on read of child wait pipe 0x280, Win32 error 233
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libsec/port; mk clean
-rm -f *.[o] [o].out  y.tab.[ch]
-      0 [waitproc] sh 28412 proc_waiter: error on read of child wait pipe 0x280, Win32 error 233
->>> ./sysofiles.sh: line 2: $'\r': command not found
-./sysofiles.sh: line 3: /cygdrive/c/Users/caud460/Documents/repos/plan9port/config: No such file or directory
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/acme; mk clean
-rm -f *.[o] [o].out o.acme y.tab.[ch]
-      0 [waitproc] sh 23368 proc_waiter: error on read of child wait pipe 0x27C, Win32 error 233
->>>       0 [waitproc] sh 26740 proc_waiter: error on read of child wait pipe 0x27C, Win32 error 233
-mk: no recipe to make 'clean.o'
-mk: rm -f *.[o] ...  : exit status=exit(1)
-mk: for i in ...  : exit status=exit(1)
-mk: for i in ...  : exit status=exit(1)
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmemlayer; mk nuke
-rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libmemlayer.a
-      0 [waitproc] sh 25636 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
->>> ./reduce: line 2: $'shift\r': command not found
-./reduce: line 4: $'shift\r': command not found
-./reduce: line 5: $'\r': command not found
-./reduce: line 7: syntax error near unexpected token `$'do\r''
-./reduce: line 7: `do'
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libmux; mk nuke
-rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libmux.a
-      0 [waitproc] sh 24264 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
->>> ./reduce: line 2: $'shift\r': command not found
-./reduce: line 4: $'shift\r': command not found
-./reduce: line 5: $'\r': command not found
-./reduce: line 7: syntax error near unexpected token `$'do\r''
-./reduce: line 7: `do'
->>> ./sysofiles.sh: line 2: $'\r': command not found
-./sysofiles.sh: line 3: /cygdrive/c/Users/caud460/Documents/repos/plan9port/config: No such file or directory
+      0 [waitproc] sh 33904 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
+>>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/astro; mk clean
+rm -f *.[o] [o].out o.astro y.tab.[ch]
+      0 [waitproc] sh 32524 proc_waiter: error on read of child wait pipe 0x280, Win32 error 233
+>>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/diff; mk clean
+rm -f *.[o] [o].out o.diff y.tab.[ch]
+      0 [waitproc] sh 28960 proc_waiter: error on read of child wait pipe 0x27C, Win32 error 233
+>>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/cmd/tcs; mk clean
+rm -f *.[o] [o].out y.tab.? y.debug y.output tcs
+      0 [waitproc] sh 26144 proc_waiter: error on read of child wait pipe 0x27C, Win32 error 233
+>>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libString; mk nuke
+rm -f *.[o] [o].out  y.tab.[ch] /cygdrive/c/Users/caud460/Documents/repos/plan9port/lib/libString.a
+      0 [waitproc] sh 34172 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 >>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/lib9; mk all
 9c  dirread.c
 dirread.c:58:9: warning: implicit declaration of function ‘_DIRENT_DIRSIZ’ [-Wimplicit-function-declaration]
@@ -71,8 +29,8 @@ dirread.c:169:6: warning: implicit declaration of function ‘mygetdents’ [-Wi
   n = mygetdents(fd, (void*)buf, st.st_blksize);
       ^
 >>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/lib9p; mk all
-9c  mem.c
-      0 [waitproc] sh 21692 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
+9ar rsc $PLAN9/lib/lib9p.a _post.o dirread.o fid.o file.o intmap.o mem.o req.o parse.o srv.o tpost.o uid.o util.o
+      0 [waitproc] sh 34828 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 >>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libacme; mk all
 9c  acme.c
 /cygdrive/c/Users/caud460/Documents/repos/plan9port/include/libc.h:442:17: warning: implicit declaration of function ‘p9setjmp’ [-Wimplicit-function-declaration]
@@ -87,12 +45,15 @@ dirread.c:169:6: warning: implicit declaration of function ‘mygetdents’ [-Wi
 acme.c:407:10: note: in expansion of macro ‘setjmp’
   if((r = setjmp(w->jmp)) != 0){
           ^
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libavl; mk all
-9ar rsc $PLAN9/lib/libavl.a avl.o
-      0 [waitproc] sh 30000 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libdisk; mk all
-9c  disk.c
-      0 [waitproc] sh 30408 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
+>>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libacme; mk all
+9ar rsc $PLAN9/lib/libacme.a acme.o
+      1 [waitproc] sh 31292 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
+>>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libauth; mk all
+9c  nsamount.c
+     23 [waitproc] sh 35980 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
+>>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libauth; mk all
+9ar rsc $PLAN9/lib/libauth.a amount_getkey.o attr.o auth_attr.o auth_challenge.o auth_getkey.o auth_getuserpasswd.o auth_proxy.o auth_respond.o auth_rpc.o auth_userpasswd.o fsamount.o nsamount.o
+      0 [waitproc] sh 30864 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 >>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libdisk; mk all
 9c  proto.c
 /cygdrive/c/Users/caud460/Documents/repos/plan9port/include/libc.h:442:17: warning: implicit declaration of function ‘p9setjmp’ [-Wimplicit-function-declaration]
@@ -107,16 +68,9 @@ acme.c:407:10: note: in expansion of macro ‘setjmp’
 proto.c:105:5: note: in expansion of macro ‘setjmp’
   if(setjmp(m->jmp) == 0)
      ^
->>>       0 [waitproc] sh 29464 proc_waiter: error on read of child wait pipe 0x280, Win32 error 233
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libframe; mk all
-9ar rsc $PLAN9/lib/libframe.a frbox.o frdelete.o frdraw.o frinit.o frinsert.o frptofchar.o frselect.o frstr.o frutil.o
-      1 [waitproc] sh 31616 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libgeometry; mk all
-9ar rsc $PLAN9/lib/libgeometry.a arith3.o matrix.o qball.o quaternion.o transform.o tstack.o
-      0 [waitproc] sh 32952 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
->>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libhtml; mk all
-9ar rsc $PLAN9/lib/libhtml.a build.o lex.o strinttab.o utils.o runetab.o
-      1 [waitproc] sh 32244 proc_waiter: error on read of child wait pipe 0x278, Win32 error 233
+>>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libdiskfs; mk all
+9ar rsc $PLAN9/lib/libdiskfs.a block.o disk.o fsys.o cache.o file.o part.o venti.o ext2.o fat.o ffs.o hfs.o kfs.o
+      0 [waitproc] sh 37248 proc_waiter: error on read of child wait pipe 0x274, Win32 error 233
 >>> cd /cygdrive/c/Users/caud460/Documents/repos/plan9port/src/libhttpd; mk all
 9c  parse.c
 /cygdrive/c/Users/caud460/Documents/repos/plan9port/include/libc.h:442:17: warning: implicit declaration of function ‘p9setjmp’ [-Wimplicit-function-declaration]
