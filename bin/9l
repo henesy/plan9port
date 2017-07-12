@@ -82,6 +82,13 @@ case "$tag" in
 	ld=${CC9:-gcc}
 	nmflags="-B"
 	;;
+*CYGWIN_NT*)
+	#ld=clang
+	ld=gcc
+	userpath=true
+	extralibs="$extralibs -lutil -lresolv"
+	
+	;;
 *)
 	echo do not know how to link on "$tag" 1>&2
 	exit 1

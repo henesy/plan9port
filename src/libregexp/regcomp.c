@@ -492,7 +492,13 @@ regcomp1(char *s, int literal, int dot_type)
 	classp = pp->class;
 	errors = 0;
 
-	if(setjmp(regkaboom))
+	long buf[34];
+	int i;
+	for(i = 0; i < 34; i++) {
+		buf[i] = regkaboom[i];
+	}
+	int jmp_ret = sigsetjmp(buf, 1);
+	if(jmp_ret)
 		goto out;
 
 	/* go compile the sucker */

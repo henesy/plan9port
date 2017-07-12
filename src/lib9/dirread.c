@@ -47,10 +47,16 @@ mygetdents(int fd, struct dirent *buf, int n)
 #endif
 
 #if defined(__DragonFly__)
-static inline int d_reclen(struct dirent *de) { return _DIRENT_DIRSIZ(de); }
+/* static inline int d_reclen(struct dirent *de) { return _DIRENT_DIRSIZ(de); } */
 #else
-static inline int d_reclen(struct dirent *de) { return de->d_reclen; }
+/* static inline int d_reclen(struct dirent *de) { return de->d_reclen; } */
 #endif
+
+static int
+d_reclen(struct dirent *de)
+{
+	return _DIRENT_DIRSIZ(de);
+}
 
 static int
 countde(char *p, int n)

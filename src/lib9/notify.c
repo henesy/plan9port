@@ -119,11 +119,19 @@ static void
 signotify(int sig)
 {
 	char tmp[64];
+	/*Jmp *j;*/
 	Jmp *j;
-	Sig *s;
-
 	j = (*_notejmpbuf)();
-	switch(p9setjmp(j->b)){
+	
+	Sig *s;
+	long buf[34];
+	int i;
+	for(i = 0; i < 34; i++){
+		buf[i] = j->b[i];
+	}
+	int jmp_ret = sigsetjmp(buf, 1);
+
+	switch(jmp_ret){
 	case 0:
 		if(notifyf)
 			(*notifyf)(nil, _p9sigstr(sig, tmp));
