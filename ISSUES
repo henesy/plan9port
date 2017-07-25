@@ -1,0 +1,4 @@
+* ssam doesn't use $PLAN9 env var
+* grep segfaults if given a blank '-e' argument
+
+* cross reference with https://bitbucket.org/mtrS/pf9 for windows port
